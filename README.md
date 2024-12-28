@@ -1,2 +1,3 @@
 # Oac-And-Rel-54-Generator
-Includes two versions - with manual input and with audacity timecodes usage
+Version with support of Audacity timecodes, which makes generating .oac much easier.
+Showcase: https://youtu.be/FPMVowkQmLQ?si=oDxYlgwXfFw4MpQx
