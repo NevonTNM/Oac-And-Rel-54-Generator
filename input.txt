@@ -1,0 +1,10 @@
+# OAC DATA
+folder_name = pour_out
+left_channel = pour_out_left
+right_channel = pour_out_right
+track_id = 0x463E5800
+headroom = 100
+# REL DATA
+radio_name = dlc_radio_09_hiphop_old
+song_name = pour_out
+duration = 209400
