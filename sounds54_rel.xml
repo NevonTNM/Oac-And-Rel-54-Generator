@@ -1,0 +1,40 @@
+
+<Item type="SimpleSound">
+   <Name>dlc_radio_03_hiphop_new_m_a_a_d_city_left</Name>
+   <Header>
+    <Flags value="0x00800040" />
+    <Pan value="307" />
+    <SpeakerMask value="0" />
+   </Header>
+   <ContainerName>dlc_radio_03_hiphop_new/m_a_a_d_city</ContainerName>
+   <FileName>m_a_a_d_city_left</FileName>
+   <WaveSlotIndex value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_radio_03_hiphop_new_m_a_a_d_city_right</Name>
+   <Header>
+    <Flags value="0x00800040" />
+    <Pan value="53" />
+    <SpeakerMask value="0" />
+   </Header>
+   <ContainerName>dlc_radio_03_hiphop_new/m_a_a_d_city</ContainerName>
+   <FileName>m_a_a_d_city_right</FileName>
+   <WaveSlotIndex value="0" />
+  </Item>
+  <Item type="StreamingSound">
+   <Name>dlc_radio_03_hiphop_new_m_a_a_d_city</Name>
+   <Header>
+    <Flags value="0x0180C001" />
+    <Flags2 value="0xAA90AAAA" />
+    <DopplerFactor value="0" />
+    <Category>radio_front_end</Category>
+    <SpeakerMask value="0" />
+    <EffectRoute value="1" />
+   </Header>
+   <Duration value="155390" />
+   <ChildSounds>
+    <Item>dlc_radio_03_hiphop_new_m_a_a_d_city_left</Item>
+    <Item>dlc_radio_03_hiphop_new_m_a_a_d_city_right</Item>
+   </ChildSounds>
+  </Item>
+  
