@@ -57,6 +57,11 @@ def parse_audacity_labels(audacity_timecodes):
             end_timestamp = int(round(float(end) * 48000))
             audacity_events.append((start_timestamp, "outro_start"))
             audacity_events.append((end_timestamp, "outro_end"))
+        elif label == "rock":
+            # Same for rock
+            end_timestamp = int(round(float(end) * 48000))
+            audacity_events.append((start_timestamp, "rock_in"))
+            audacity_events.append((end_timestamp, "rock_out"))
         elif label == "beat":
             # Only one timestamp for beat
             audacity_events.append((start_timestamp, "beat"))
